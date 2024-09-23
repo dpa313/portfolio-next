@@ -11,7 +11,7 @@ const WorkSliderButton = ({containerStyles, btnStyles, iconStyles}) => {
         <button className={btnStyles} onClick={()=>swiper.slidePrev()}>
             <PiCaretLeftBold className={iconStyles}/>
         </button>
-        <button className={btnStyles} onClick={()=>swiper.slideNext()}>
+        <button className={btnStyles} onClick={()=>swiper.slideNextgi()}>
             <PiCaretRightBold className={iconStyles}/>
         </button>
     </div>
